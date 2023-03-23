@@ -9,7 +9,6 @@
 		"lib": "dpqs",
 		"src-dir": "cc"
 	},
-	"depends": [ ],
 	"description": "Fast numeric sorting",
 	"name": "Sort-Fast",
 	"provides": {
@@ -26,5 +25,5 @@
 	],
 	"test-depends": [ "Test" ],
 	"license": "Artistic-2.0",
-	"version": "0.0.1"
+	"version": "0.0.2"
 }
