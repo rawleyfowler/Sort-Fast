@@ -1,3 +1,6 @@
 [submodule "dpqs"]
 	path = dpqs
 	url = https://github.com/rawleyfowler/dpqs
+[submodule "cc"]
+	path = cc
+	url = https://github.com/rawleyfowler/dpqs
