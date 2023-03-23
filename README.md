@@ -1,6 +1,12 @@
 # Sort::Fast
 Sort lists and arrays of numeric values very fast.
 
+## How to install
+
+```bash
+zef install Sort-Fast # May take a second on older hardware for tests
+```
+
 ## How to use
 ```raku
 use Sort::Fast;
