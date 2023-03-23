@@ -1,0 +1,30 @@
+{
+	"auth": "zef:rawleyfowler",
+	"authors": [ "Rawley Fowler" ],
+	"build-depends": [
+		"Distribution::Builder::Cmake"
+	],
+	"builder": "Distribution::Builder::Cmake",
+	"build": {
+		"lib": "dpqs",
+		"src-dir": "cc"
+	},
+	"depends": [ ],
+	"description": "Fast numeric sorting",
+	"name": "Sort-Fast",
+	"provides": {
+		"Sort::Fast": "lib/Sort/Fast.rakumod"
+	},
+	"resources": [
+		"libraries/dpqs"
+	],
+	"perl": "6.d",
+	"source-url": "https://github.com/rawleyfowler/Sort-Fast",
+	"tags": [
+		"Sort",
+		"Fast"
+	],
+	"test-depends": [ "Test" ],
+	"license": "Artistic-2.0",
+	"version": "0.0.1"
+}

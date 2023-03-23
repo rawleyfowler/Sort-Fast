@@ -1,0 +1,3 @@
+[submodule "dpqs"]
+	path = dpqs
+	url = https://github.com/rawleyfowler/dpqs

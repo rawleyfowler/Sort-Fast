@@ -1,0 +1,17 @@
+use v6.d;
+
+use Test;
+use Sort::Fast;
+
+plan 3;
+
+my @foo = [4,2,4,8,6];
+is @foo.sort-fast, @foo.sort, 'Does sort OK?';
+
+my @foo-bar = [(rand * 1000).Int for ^1000];
+is @foo-bar.sort-fast, @foo-bar.sort, 'Does big sort OK?';
+
+my @foo-bar-baz = [(rand * 1000).Int for ^1000000];
+is @foo-bar-baz.sort-fast, @foo-bar-baz.sort, 'Does REALLY big sort OK?';
+
+done-testing;
